@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ProjectZ</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="trading.css">
+  <link rel="stylesheet" href="maps.css">
+</head>
+<body>
+  <h1>Welcome to My Project</h1>
+  
+  <div id="trade-info">
+    <h2>Trade Information</h2>
+    <p id="total-value">Total Value: </p>
+    <p id="profit-loss">Profit/Loss: </p>
+  </div>
+  
+  <div id="government-info">
+    <h2>Government Information</h2>
+    <form id="approve-nft-form">
+      <label for="nft-input">NFT:</label>
+      <input type="text" id="nft-input" name="nft">
+      <button type="submit">Approve NFT</button>
+    </form>
+    <p id="approval-message"></p>
+  </div>
+  
+  <div id="maps-info">
+    <h2>Maps Information</h2>
+    <label for="location-input">Location:</label>
+    <input type="text" id="location-input" name="location">
+    <button id="get-location-btn">Get Location</button>
+    <p id="location-info"></p>
+    <h3>All Locations:</h3>
+    <ul id="all-locations"></ul>
+  </div>
+  <script src="government.js"></script>
+  <script src="loan.js"></script>
+  <script src="trading.js"></script>
+  <script src="mortgage.js"></script>
+  <script src="maps.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

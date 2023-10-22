@@ -1,0 +1,93 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Trading container styles */
+  .trading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Trading form styles */
+  .trading-form {
+    width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .trading-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .trading-form input[type="text"],
+  .trading-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .trading-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .trading-form button:hover {
+    background-color: #555;
+  }
+  
+  /* Trading table styles */
+  .trading-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .trading-table th,
+  .trading-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .trading-table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
