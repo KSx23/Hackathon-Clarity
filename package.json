@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@stacks/transactions": "^6.9.0",
+    "clarinet": "^0.12.6"
+  },
+  "devDependencies": {
+    "@types/clarinet": "^0.12.2"
+  }
+}
